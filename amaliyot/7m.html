@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> misollar </title>
+
+</head>
+<body>
+    <input type="number" id="radius" placeholder="radiusni kiriting">
+    <button onclick="hisoblash()">Hisoblash</button>
+    
+    <p id="uzunlik"></p>
+    <p id="yuza"></p>
+
+     <script>
+        function hisoblash(){
+           let R = document.getElementById('radius').value;
+           const pi = 3.14;
+           document.getElementById('uzunlik').innerHTML ="uzunlik: " + 2*pi*R;
+           document.getElementById('yuza').innerHTML = "yuza: " + pi*R**2;    
+        }
+     
+    </script>
+</body>
+</html>

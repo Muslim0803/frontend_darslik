@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms 3-qism</title>
+    </head>
+    <body>
+       <form action="/servevr.php" method="get">
+        <label for="username">Usarname</label>
+        <input type="text" name="username" id="username"> <br><br>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password"> <br><br>
+        <label for="email">Emailingiz</label>
+        <input type="email" name="email" id="email">  <br><br>
+        <label for="sana">Tugilgan sana</label>
+        <input type="date" name="date" id="date"> <br><br>
+        <label for="student">Talaba</label>
+        <input type="checkbox" name="student" id="student"> <br><br>
+        <hr>
+        <label for="erkak">Erkak</label>
+        <input type="radio" name="gender" value="male">
+        <label for="ayol">Ayol</label>
+        <input type="radio" name="gender" value="female"> <br><br>
+        <label for="for">Passport</label>
+        <input type="file" name="passport" id="passport" > <br><br> 
+        <hr>
+        <button type="submit">Register</button> 
+         <label for="tajriba">Tajribangiz(yil)</label>
+         <select name="experience" id="tajriba">
+            <option value="0">1-yil</option>
+            <option value="1">2-yil</option>
+            <option value="2">3-yil</option> <br><br> 
+            <label for="haqida">Siz haqingizda</label> <br>
+            <textarea id="haqida" name="about" rows="10" cols="30"></textarea>  <br><br>   
+         </select>
+        </form>
+    </body>
+</html>

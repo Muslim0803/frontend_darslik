@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> misollar </title>
+</head>
+<body>
+     <script>
+       function Hisobla(r1 ,r2){
+        if(r1 <r2){
+            console.log("birinchi aylanda ikkinchisidan katta bolsin");
+            return;
+        }
+
+        const pi = 3.14;
+        let s1 = (pi* r1);
+        let s2 = (pi*r2);
+        let s3 = ( pi*(r1-r2));
+
+        console.log("1-aylana S1="+s1);
+        console.log("2-aylana S2="+s2);
+        console.log("3-aylana S3="+s3);
+       }
+
+       Hisobla(3,2);
+
+    </script>
+</body>
+</html>

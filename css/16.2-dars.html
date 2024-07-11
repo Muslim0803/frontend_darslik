@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>vertical-align</title> 
+        <link rel="styleshet" href="./1.css">
+    </head>
+    <style>
+        .contanier{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        .contanier span{
+            display: inline-block ;
+            vertical-align: middle;
+        }
+        .box-1{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+        .box-2{
+            width: 100px;
+            height: 150px;
+            background-color: blue;
+        }
+        .box-3{
+            width: 100px;
+            height: 50px;
+            background-color: yellow;
+        }
+    </style>
+    <body>
+        <div class="contanier">
+            <span class="box-1">box 1</span>
+            <span class="box-2">box 2</span>
+            <span class="box-3">box 3</span>
+        </div>
+    </body>
+</html> 

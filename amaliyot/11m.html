@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> misollar </title>
+
+</head>
+<body>
+
+     <script>
+        
+        function nolgaTengBoImagan(son1, son2) {
+    if (son1 === 0 || son2 === 0) {
+        console.log("Sonlardan biri nolga teng bo'lmasligi kerak");
+        return;
+    }
+
+    let yigindi = son1 + son2;
+    let kopaytma = son1 * son2;
+    let kvadrat1 = son1 ** 2;
+    let kvadrat2 = son2 ** 2;
+
+    console.log("Yig'indisi: " + yigindi);
+    console.log("Ko'paytmasi: " + kopaytma);
+    console.log(son1 + " ning kvadrati: " + kvadrat1);
+    console.log(son2 + " ning kvadrati: " + kvadrat2);
+}
+
+
+nolgaTengBoImagan(0, 4);
+    </script>
+
+</body>
+</html>

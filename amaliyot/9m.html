@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html>  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> misollar </title>
+</head>
+<body>
+     <script>
+       function ManfiyBolmagan(son1, son2){ 
+        if(son1 < 0 || son2 < 0){
+            console.log("manfiy bolmagan son kiriting") ;
+            return;
+        }
+
+        let orta_geometrik = ((son1*son2 )**(1/2));
+
+        console.log("orta geometrik:" + orta_geometrik);
+       }
+
+       ManfiyBolmagan (1,2);
+    </script>
+</body>
+</html>
